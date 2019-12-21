@@ -1,0 +1,29 @@
+updateTuition(T1, D1, &T2)
+
+void updateTuition (struct TuitionOwed T1, struct DateToday D1, struct TuitionOwed *T2)
+{
+	(*T2).tuition = T1.tuition;
+	if (D1.month > 8)
+		(*T2).tution *= 1.1;
+	(*T2).ssn = t1.ssn
+}
+
+
+
+FILE* fp1;
+fp1 = fopen("inputfile1.txt", "r");
+fscanf(fp1, );
+fclose(fp1);
+
+FILE* fp2;
+fp2 = fopen("outputfile1.txt", "w");
+fprintf(fp2, );
+fclose(fp2);
+
+
+
+
+sorting mon
+struct
+file
+T1 Q4

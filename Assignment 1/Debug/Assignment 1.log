@@ -1,0 +1,22 @@
+﻿Build started 9/8/2014 2:15:02 PM.
+     1>Project "C:\Users\ZGorlock\Coding\C\Visual Studio Workplace\COP3223\Assignment 1\Assignment 1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt calories.c coaster.c shop.c
+         shop.c
+         coaster.c
+     1>c:\users\zgorlock\coding\c\visual studio workplace\cop3223\assignment 1\coaster.c(44): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\zgorlock\coding\c\visual studio workplace\cop3223\assignment 1\coaster.c(19): warning C4101: 'maxTrainsLength' : unreferenced local variable
+         calories.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ZGorlock\Coding\C\Visual Studio Workplace\COP3223\Debug\Assignment 1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ZGorlock\Coding\C\Visual Studio Workplace\COP3223\Debug\Assignment 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ZGorlock\Coding\C\Visual Studio Workplace\COP3223\Debug\Assignment 1.lib" /MACHINE:X86 Debug\calories.obj
+         Debug\coaster.obj
+         Debug\shop.obj
+     1>coaster.obj : error LNK2005: _main already defined in calories.obj
+     1>shop.obj : error LNK2005: _main already defined in calories.obj
+     1>C:\Users\ZGorlock\Coding\C\Visual Studio Workplace\COP3223\Debug\Assignment 1.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\ZGorlock\Coding\C\Visual Studio Workplace\COP3223\Assignment 1\Assignment 1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.50
